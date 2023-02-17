@@ -7,10 +7,10 @@ This is official repository for the QAMP Spring 23 cohort (April - July 2023) wh
 Qiskit Advocate Mentorship Program (QAMP) is a program focused on bring new contributors into Qiskit open source software development where Qiskit advocates work on a 3-month projects under the guidance of mentors.
 
 You can find information about the previous cohorts here:
+- [QAMP Fall 22](https://github.com/qiskit-advocate/qamp-fall-22)
 - [QAMP Spring 22](https://github.com/qiskit-advocate/qamp-spring-22)
 - [QAMP Fall 21](https://github.com/qiskit-advocate/qamp-fall-21)
 - [QAMP Spring 21](https://github.com/qiskit-advocate/qamp-spring-21)
-- [QAMP Fall 22](https://github.com/qiskit-advocate/qamp-fall-22)
 
 ## Application
 
