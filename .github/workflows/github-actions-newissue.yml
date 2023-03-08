@@ -3,7 +3,6 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   issues:
     types: [opened]
-name: Issue opened
 jobs:
   assign:
     name: Assign issues to project
