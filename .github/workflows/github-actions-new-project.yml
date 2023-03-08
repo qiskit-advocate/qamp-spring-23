@@ -1,18 +1,20 @@
 name: GitHub Actions QAMP Issues
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
+run-name: ${{ github.actor }} is using GitHub Actions 🚀
+
 on:
   issues:
     types: [opened]
+
 jobs:
   assign:
-    name: Assign issues to project
+    name: Assign QAMP projects to GitHub project
     runs-on: ubuntu-latest
     steps:
-      - name: Assign issues to project
-        uses: technote-space/create-project-card-action@v1
+      - uses: actions/add-to-project@v0.4.1
         with:
-          PROJECT: QAMP Spring 23
-          COLUMN: Mentor Proposed Projects
+          project-url: https://github.com/orgs/qiskit-advocate/projects/4
+          github-token: ${{ secrets.GEMMA_CLASSIC_PAT }}
   add_labels:
     runs-on: ubuntu-latest
     steps:
