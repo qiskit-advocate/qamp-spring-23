@@ -1,0 +1,25 @@
+name: GitHub Actions QAMP Issues
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on:
+  issues:
+    types: [opened]
+name: Issue opened
+jobs:
+  assign:
+    name: Assign issues to project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign issues to project
+        uses: technote-space/create-project-card-action@v1
+        with:
+          PROJECT: QAMP Spring 23
+          COLUMN: Mentor Proposed Projects
+  add_labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            from: mentor
+            mentee needed
