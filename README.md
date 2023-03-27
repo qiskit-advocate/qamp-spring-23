@@ -20,8 +20,8 @@ Link to the application form is shared in the `#qiskit-advocates` channel on Qis
 
 *Notes: dates are not finalized and subject to change.*
 
-- Application: 14 - 26 March 2023
-- Mentor - mentee pairing: 26 March - 9 April 2023
+- Application: 14 - 31 March 2023
+- Mentor - mentee pairing: 1 - 10 April 2023
 - Kick-off: 11 April 2023
 - Checkpoint 1: 9 May 2023
 - Checkpoint 2: 6 June 2023
